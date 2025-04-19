@@ -57,6 +57,7 @@ html, body {
 main {
   flex: 1; /* Pushes footer to bottom */
 }
+
 .contact-section {
   max-width: 800px;
   margin: 0 auto;
