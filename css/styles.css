@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #2c3e50;
+  background-color: #6C63FF; /* vibrant purple */
   padding: 20px;
   color: white;
   text-align: center;
@@ -24,8 +24,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #FFD700; /* vibrant gold/yellow */
   text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -33,15 +37,32 @@ main {
 }
 
 section {
+  background-color: #f0f8ff; /* light cyan */
+  padding: 20px;
+  border-radius: 12px;
   margin-bottom: 20px;
 }
 
 footer {
-  background-color: #2c3e50;
+  background-color: #6C63FF;
   color: white;
   text-align: center;
   padding: 20px;
 }
+
+button {
+  background-color: #00C9A7; /* teal */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00796B;
+}
+
 /* Sticky Footer Setup */
 html, body {
   height: 100%;
