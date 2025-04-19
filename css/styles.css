@@ -2,12 +2,12 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #E8F5E9;
+  background-color: #FFF8E1; /* cream white */
   color: #333;
 }
 
 header {
-  background-color: #43A047;
+  background-color: #FF6B6B; /* coral red */
   padding: 20px;
   color: white;
   text-align: center;
@@ -24,12 +24,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #D4E157;
+  color: #FFA41B; /* tangerine */
   text-decoration: none;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
+  color: #E76F51; /* burnt orange */
 }
 
 main {
@@ -37,30 +38,17 @@ main {
 }
 
 section {
-  background-color: #E8F5E9;
+  margin-bottom: 20px;
+  background-color: #FFB997; /* deep peach */
   padding: 20px;
   border-radius: 12px;
-  margin-bottom: 20px;
 }
 
 footer {
-  background-color: #43A047;
+  background-color: #FF6B6B; /* coral red */
   color: white;
   text-align: center;
-  padding: 20px;
-}
-
-button {
-  background-color: #00C9A7; /* teal */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #00796B;
+  padding: 10px;
 }
 
 /* Sticky Footer Setup */
@@ -76,9 +64,10 @@ html, body {
 }
 
 main {
-  flex: 1; /* Pushes footer to bottom */
+  flex: 1;
 }
 
+/* Contact Page Enhancements */
 .contact-section {
   max-width: 800px;
   margin: 0 auto;
@@ -101,15 +90,23 @@ main {
 .contact-list li {
   margin-bottom: 20px;
   padding: 10px;
-  border-left: 4px solid #2c3e50;
-  background-color: #f9f9f9;
+  border-left: 4px solid #E76F51; /* burnt orange */
+  background-color: #FFEBEE; /* light pink variation */
 }
 
 .contact-list a {
-  color: #2c3e50;
+  color: #FF6B6B; /* coral red */
   text-decoration: none;
 }
 
 .contact-list a:hover {
   text-decoration: underline;
+  color: #E76F51; /* burnt orange */
+}
+
+.contact-list img {
+  vertical-align: middle;
+  margin-right: 6px;
+  width: 16px;
+  height: 16px;
 }
