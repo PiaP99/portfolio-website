@@ -160,13 +160,13 @@ main {
 }
 
 .home-section h2 a {
-  color: #FF6B6B; /* match header/footer color */
+  color: white; /* match header/footer color */
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .home-section h2 a:hover {
-  color: #E76F51; /* burnt orange on hover */
+  color: white; /* burnt orange on hover */
   text-decoration: underline;
 }
 
