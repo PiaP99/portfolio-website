@@ -47,14 +47,20 @@
   async function loadSection(id, file) {
     const response = await fetch(file);
     const html = await response.text();
-    document.getElementById(id).innerHTML = html;
+
+    // Create a temporary container to extract only the section you want
+    const temp = document.createElement("div");
+    temp.innerHTML = html;
+
+    const included = temp.querySelector("#include-content");
+    document.getElementById(id).innerHTML = included ? included.innerHTML : "<p>Could not load content.</p>";
   }
 
-  // Load the sections
   loadSection("about", "about.html");
   loadSection("projects", "projects.html");
   loadSection("contact", "contact.html");
 </script>
+
 
 </body>
 </html>
