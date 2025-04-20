@@ -110,3 +110,33 @@ main {
   width: 16px;
   height: 16px;
 }
+.team-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.team-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #FFB997; /* warm peach */
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.team-row img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.team-text {
+  flex: 1;
+}
+
+.team-text h3 {
+  margin-top: 0;
+  color: #E76F51; /* burnt orange */
+}
