@@ -31,6 +31,10 @@
       <h2>Our Mission</h2>
       <p>Our goal is to provide an engaging and user-centric online presence to highlight our projects and professional achievements.</p>
     </section>
+
+    <div id="about"></div>
+    <div id="projects"></div>
+    <div id="contact"></div>
   </main>
    
  </div> 
@@ -38,5 +42,19 @@
   <footer>
     <p>&copy; 2025 Pia, Emelia & Cecil</p>
   </footer>
+  
+  <script>
+  async function loadSection(id, file) {
+    const response = await fetch(file);
+    const html = await response.text();
+    document.getElementById(id).innerHTML = html;
+  }
+
+  // Load the sections
+  loadSection("about", "about.html");
+  loadSection("projects", "projects.html");
+  loadSection("contact", "contact.html");
+</script>
+
 </body>
 </html>
