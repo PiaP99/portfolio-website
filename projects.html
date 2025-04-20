@@ -2,19 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Projects & Resumes</title>
+  <title>Projects</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /* You can move this to your css/styles.css file */
+    .download-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
   
  <div class="wrapper">
   <header>
-    <h1>Our Projects & Resumes</h1>
+    <h1>Our Projects</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects & Resumes</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -32,9 +49,7 @@
 
     <section class="resume-download">
       <h2>Download Resumes</h2>
-      <p>
-        <a href="ELResume.pdf" download>Click here to download Emelia's resume (PDF)</a>
-      </p>
+      <a href="ELResume.pdf" class="download-button" download>Download Emelia's Resume (PDF)</a>
     </section>
       
     </div>
