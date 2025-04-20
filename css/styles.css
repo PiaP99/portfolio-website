@@ -140,3 +140,20 @@ main {
   margin-top: 0;
   color: #E76F51; /* burnt orange */
 }
+.home-section {
+  padding: 40px 20px;
+  margin: 30px auto;
+  max-width: 1000px;
+  background-color: #FFF3E0; /* light peach background */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.home-section h2 {
+  text-align: center;
+  color: #E76F51;
+  margin-bottom: 20px;
+  font-size: 2em;
+  border-bottom: 2px solid #FFB997;
+  padding-bottom: 10px;
+}
