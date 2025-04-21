@@ -170,3 +170,18 @@ main {
   text-decoration: underline;
 }
 
+.section-button {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  margin: 20px 0;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.section-button:hover {
+  color: #007BFF;
+}
