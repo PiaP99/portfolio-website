@@ -45,7 +45,7 @@ section {
 }
 
 footer {
-  background-color: #FF6B6B; /* coral red */
+  background-color: #F88379; /* coral red */
   color: white;
   text-align: center;
   padding: 10px;
@@ -186,7 +186,7 @@ main {
   margin: 30px auto;
   display: block;
   text-align: center;
-  background-color: #E76F51;
+  background-color: #F88379;
   color: white;
   border: none;
   border-radius: 10px;
