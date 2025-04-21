@@ -120,7 +120,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-  background-color: #F9DCC4; 
+  background-color: #FFEBEE; 
   padding: 20px;
   border-radius: 12px;
 }
@@ -138,7 +138,7 @@ main {
 
 .team-text h3 {
   margin-top: 0;
-  color: #E76F51; /* burnt orange */
+  color: #3C6893; /* slate blue */
 }
 .home-section {
   padding: 40px 20px;
