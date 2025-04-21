@@ -81,6 +81,15 @@ main {
   text-align: center;
   margin-bottom: 10px;
 }
+.contact-section h3 {
+  background-color: #3C6893;  /* slate blue */
+  color: white;               /* white text like header */
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  font-size: 2em;
+  border-radius: 8px;
+}
 
 .contact-list {
   list-style: none;
